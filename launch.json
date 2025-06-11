@@ -1,0 +1,7 @@
+{
+  "configurations": [
+    {
+      "args": ["--dart-define", "PUBLIC_ACCESS_TOKEN=__"]
+    }
+  ]
+}

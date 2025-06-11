@@ -1,0 +1,94 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "route_mates",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "route_mates (debug mode)",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "route_mates (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Device1 (debug mode) Emulators",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "toolArgs": [
+        "--dart-define",
+        "emulators=true",
+      ]
+    },
+    {
+      "name": "Device1 (debug mode)",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+    },
+    {
+      "name": "Device1 (release mode)",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5554",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Device2 (debug mode) Emulators",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5556",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+      "toolArgs": [
+        "--dart-define",
+        "emulators=true",
+      ]
+    },
+    {
+      "name": "Device2 (debug mode) ",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5556",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug",
+    },
+    {
+      "name": "Device2 (release mode)",
+      "program": "lib/main.dart",
+      "deviceId": "emulator-5556",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "Huawei (debug mode)",
+      "program": "lib/main.dart",
+      "deviceId": "MUN0219116000165",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "debug"
+    },
+    {
+      "name": "Huawei (release mode)",
+      "program": "lib/main.dart",
+      "deviceId": "MUN0219116000165",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
